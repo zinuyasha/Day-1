@@ -1,0 +1,11 @@
+library("TraMineR")
+?biofam
+data(biofam)
+View(biofam)
+head(biofam)
+biofam.seq<-seqdef(biofam[,11:25])
+seqiplot(biofam.seq)
+seqfplot(biofam.seq)
+seqdplot(biofam.seq)
+print(biofam.seq[1:10,])
+print(biofam.seq[1:10,],format="SPS")
