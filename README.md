@@ -1,4 +1,5 @@
 Columns 15-30 contain the sequence data
+
 > print(biofam.seq[1:10,])
      Sequence                     
 1167 0-0-0-0-0-0-0-0-3-6-6-6-6-6-6
@@ -11,6 +12,7 @@ Columns 15-30 contain the sequence data
 47   0-0-0-0-0-1-1-1-1-1-3-3-3-6-6
 2091 0-0-0-0-0-0-0-0-0-0-6-6-6-6-6
 1846 1-1-1-1-1-1-1-1-6-6-6-6-6-6-6
+
 > print(biofam.seq[1:10,],format="SPS")
      Sequence               
 [1]  (0,8)-(3,1)-(6,6)      
